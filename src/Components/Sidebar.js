@@ -53,7 +53,7 @@ const Sidebar = () => {
             {/* for mobile */}
             <div className={"md:hidden z-10 h-screen w-56 bg-white border-r-2 border-gray-300 absolute " + (sidebartoggle ? "block" : "hidden")}>
                 <h2 className="flex items-center bg-white  p-4 text-gray-800 justify-between">
-                    <img className="w-8 h-8 bg-white rounded-full mx-3" src={user.picture} alt="evernote" />
+                    <img className="w-8 h-8 bg-white rounded-full mx-3" src={user.picture} alt="schema_Dp" />
                     <span className="mr-6">{user.given_name}</span>
                 </h2>
                 <hr />
@@ -70,7 +70,7 @@ const Sidebar = () => {
                     </Link>
                     <hr />
 
-                    <div onClick={() => logout()} className="flex items-center p-3 bg-red-500 text-white mt-2">
+                    <div onClick={() => logout()} className="flex items-center p-3 bg-blue-500 text-white mt-2">
                         <span><FiLogOut /></span> <div className="ml-3">Logout</div>
                     </div>
                 </div>
@@ -78,7 +78,7 @@ const Sidebar = () => {
             {/* for pc */}
             <div className="pcsidebar hidden md:block h-screen  bg-white border-r-2 border-gray-300">
                 <h2 className="flex items-center bg-white  p-4 text-gray-800 justify-between">
-                    <img className="w-8 h-8 bg-white rounded-full mx-3" src={user.picture} alt="evernote" />
+                    <img className="w-8 h-8 bg-white rounded-full mx-3" src={user.picture} alt="schema_Dp" />
                     <span className="mr-6">{user.given_name}</span>
                 </h2>
                 <hr />
@@ -99,7 +99,7 @@ const Sidebar = () => {
                     </Link>
                     <hr />
 
-                    <div onClick={() => logout()} className="flex items-center p-3 bg-red-500 text-white mt-10 cursor-pointer rounded-full">
+                    <div onClick={() => logout()} className="flex items-center p-3 bg-blue-500 text-white mt-10 cursor-pointer rounded-full">
                         <span><FiLogOut /></span> <div className="ml-3">Logout</div>
                     </div>
                 </div>

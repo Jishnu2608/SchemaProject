@@ -113,7 +113,7 @@ const Displaynotes = () => {
                         <img className="mb-5" src="/nonotes2.gif" alt="no notes" />
                         <h2 className="text-center text-lg mb-44 md:mb-10">
                             Create your first note<br />
-                            Click the <span className="text-green-500">+ New Note </span>button in the sidebar to get started.
+                            Click the <span className="text-blue-500">+ New Note </span>button in the sidebar to get started.
                         </h2>
                     </div>
                 }

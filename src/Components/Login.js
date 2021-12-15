@@ -10,7 +10,7 @@ const Login = () => {
             <div className="logindiv bg-white rounded-xl pt-10">
                 <div className="logo-section flex flex-col items-center">
                     <div className="evernote-logo flex justify-center p-4 flex-col items-center">
-                        <img  src="/evernotefinallogo.svg" alt="evernote-logo" className="" />
+                        <img  src="/refresco.png" alt="evernote-logo" className="" />
                         <div className="evernote-tagline text-sm font-serif pt-1 md:text-lg">
                     </div>
                   
